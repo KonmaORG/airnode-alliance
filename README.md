@@ -32,7 +32,8 @@ git clone <REPOSITORY_URL>
 cd airnode-alliance
 
 # Step 3: Install dependencies
-npm install
+npm install --legacy-peer-deps
+
 
 # Step 4: Start the development server
 npm run dev
